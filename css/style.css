@@ -490,7 +490,7 @@ body * {
 }
 
 .container-rooms {
-    width: 1237px;
+    max-width: 1237px;
     height: 700px;
     margin: 0 auto;
     padding: 0;
@@ -509,14 +509,18 @@ body * {
 .card {
     padding: 0;
     margin: 0;
-    width: 400px;
-    height: 660px;
+    max-width: 400px;
+    max-height: 660px;
+}
+
+.photo-design {
+    max-width: 392px;
 }
 
 .description {
     margin: 0 auto;
     height: 286px;
-    width: 330px;
+    max-width: 330px;
     position: relative;
     background: white;
     top: -159px;
@@ -751,8 +755,8 @@ body * {
     background-size: cover;
     position: relative;
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
+    
+    justify-content: space-between;
 }
 
 .hero-5-overlay {
@@ -770,10 +774,6 @@ body * {
     z-index: 1;
 }
 
-.container-gallery{
-    padding-left: 99px;
-}
-
 .header-gallery {
     color: #E3B873;
     font-family: 'Yeseva One';
@@ -784,7 +784,7 @@ body * {
     text-transform: uppercase;
     padding-top: 137px;
     margin: 0;
-    width: 411px;
+    max-width: 280px;
 }
 
 .style {
