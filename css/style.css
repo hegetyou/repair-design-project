@@ -487,6 +487,8 @@ body * {
 
 .hero-4 {
     margin: 0 auto; 
+    background: url(../img/request-bg.jpg) no-repeat;
+    background-position: left bottom;
 }
 
 .container-rooms {
@@ -579,17 +581,13 @@ body * {
 .container-request {
     display: flex;
     justify-content: space-between;
-    background: url(../img/request-bg.jpg) no-repeat;
-    position: relative;
-    left: -85px;
     height: 650px;
     margin-top: 257px;
-    
 }
 
 .number-div {
+    margin-left: 150px;
     height: 645px;
-    padding-left: 240px;
     padding-top: 120px;
     padding-bottom: 45px;
     display: flex;
@@ -723,10 +721,16 @@ body * {
 }
 
 .pig {
-    margin-left: 774px;
+    margin-right: 150px;
     display: flex;
     margin-bottom: 242px;
     margin-top: 8px;
+    justify-content: flex-end;
+}
+
+.pig-img {
+    width: 75px;
+    height: 75px;
 }
 
 .pig-text {
