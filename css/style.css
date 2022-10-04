@@ -1131,7 +1131,7 @@ footer .header-content {
     display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1300px) {
 
     .wrapper {
         max-width: 339px;
